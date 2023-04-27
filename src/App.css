@@ -1,38 +1,99 @@
-.App {
+/* html{
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+*,*:before,*:after{
+  box-sizing: border-box
+}
+input,textarea,select,button{
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+  max-width: 100%;
+}  */
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
   text-align: center;
+  width: 34px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.square:hover {
+  background-color: #ddd;
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.status {
+  margin-bottom: 10px;
+}
+
+/* .youtube-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  padding: 25px;
+}
+.youtube-image{
+  height: 250px;
+  margin-bottom: 20px;
+}
+.youtube-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.youtube-footer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  gap: 0 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.youtube-avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 100rem;
+  object-fit: cover;
+  flex-shrink: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.youtube-title{
+  font-style: 18px;
+  margin-bottom: 10px;
 }
+.youtube-author{
+font-style: 18px;
+color: #999;
+font-weight: 300;
+} */
